@@ -3375,3 +3375,53 @@ Started GET "/assets/logo-b57855e518feb560fc14f2ac4226f3d3.svg" for ::1 at 2015-
 
 
 Started GET "/assets/favicon-fd73644ee4fd2729bfa70994e49cc9c5.ico" for ::1 at 2015-01-10 05:13:33 +0700
+
+
+Started GET "/" for ::1 at 2015-01-12 10:42:07 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (1.0ms)[0m  SELECT "posts".* FROM "posts"  ORDER BY created_at DESC
+  Rendered posts/index.html.erb within layouts/application (28.0ms)
+Completed 200 OK in 670ms (Views: 611.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/_normalize-6f0ec14774638b805c570e3adeae3624.css?body=1" for ::1 at 2015-01-12 10:42:07 +0700
+
+
+Started GET "/assets/posts-069e88c06b889877799890854d7f4c40.css?body=1" for ::1 at 2015-01-12 10:42:07 +0700
+
+
+Started GET "/assets/comments-069e88c06b889877799890854d7f4c40.css?body=1" for ::1 at 2015-01-12 10:42:07 +0700
+
+
+Started GET "/assets/application-0f665595e1cd2cd6fcc16196ebea23d3.css?body=1" for ::1 at 2015-01-12 10:42:07 +0700
+
+
+Started GET "/assets/pages-069e88c06b889877799890854d7f4c40.css?body=1" for ::1 at 2015-01-12 10:42:07 +0700
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-01-12 10:42:07 +0700
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-01-12 10:42:08 +0700
+
+
+Started GET "/assets/turbolinks-560c7920417c7ce6e0616f58657cce3a.js?body=1" for ::1 at 2015-01-12 10:42:08 +0700
+
+
+Started GET "/assets/comments-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for ::1 at 2015-01-12 10:42:08 +0700
+
+
+Started GET "/assets/pages-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for ::1 at 2015-01-12 10:42:08 +0700
+
+
+Started GET "/assets/posts-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for ::1 at 2015-01-12 10:42:08 +0700
+
+
+Started GET "/assets/application-399cb2bfc022006c34dd5fbf56bd4f8b.js?body=1" for ::1 at 2015-01-12 10:42:08 +0700
+
+
+Started GET "/assets/logo-b57855e518feb560fc14f2ac4226f3d3.svg" for ::1 at 2015-01-12 10:42:08 +0700
+
+
+Started GET "/assets/favicon-fd73644ee4fd2729bfa70994e49cc9c5.ico" for ::1 at 2015-01-12 10:42:08 +0700
